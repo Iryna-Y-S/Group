@@ -1,0 +1,153 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+body {
+    cursor: default;
+    font-size: 14px;
+    font-family: "Segoe UI","Helvetica",Garuda,Arial,sans-serif;
+  
+}
+
+button{
+width: 50px;
+font-family: "Segoe UI","Helvetica",Garuda,Arial,sans-serif;
+border: 2px solid #C6E9E3;
+background-color: #C6E9E3;
+text-align: center;
+color: #FD8E56;
+padding-right: 5px;
+margin-right:5px;
+}
+
+ul {
+  	position: relative;
+    padding:5px;
+    font-size: 24px;
+    margin:0 auto;
+}
+
+li  { 
+    display: block;
+    width: 300px;
+    height: 30px;
+    margin: 0 0 7px 0;
+    font-size: 18px;
+    color: #333;
+    padding: 5px;
+    text-decoration: none;
+    border: 2px solid #C6E9E3;
+    border-left: 5px solid #FD8E56;
+    background-color: #F8FFFE;
+    text-align: left;
+}
+
+#main, #additional_info { 
+    border: 2px solid #C6E9E3;
+    border-radius: 2px;
+	background-color: #EFFFFB;
+	width:370px; 
+	padding:5px;
+    font-size: 20px;
+	text-align:center;
+	margin: 10px;
+	
+	} 
+#additional_info {
+    position:absolute;
+	background-color: #EFFFFB;
+    top: 8x; 
+	display: none;
+}
+input {
+    border: 2px solid #C6E9E3;
+	border-radius: 2px;
+    padding:5px;
+    font-size: 14px;
+    margin:5px;
+    background-color: #F8FFFE;
+	display: block;
+	text-align: center;
+	
+}
+
+ 
+.output {
+    border: 2px solid #C6E9E3;
+	border-right: 5px solid #FD8E56;
+	border-radius: 2px;
+    position: relative;
+    padding:5px;
+    font-size: 14px;
+    margin:2px;
+    background-color:#F8FFFE;
+	display: inline-block;
+	width: 200px;
+}
+
+p {
+    display: inline-block;
+    width: 200px;
+    margin: 2px;
+    padding: 5px;
+    font-size: 20px;
+}
+.short {
+    display: inline-block;
+    width: 100px;
+    margin: 2px;
+    padding: 5px;
+    font-size: 20px;
+	}
+	
+#add {
+    border: 2px solid #C6E9E3;
+	border-radius: 2px;
+    padding:5px;
+    font-size: 20px;
+    margin:15px;
+    background-color: #C6E9E3;
+	text-align: center;
+	color: #FD8E56;
+	width: 200px;
+	
+}
+	
+#save_student, #edit_student , #back {
+    border: 2px solid #C6E9E3;
+	border-radius: 2px;
+    padding:5px;
+    font-size: 20px;
+    margin:15px;
+    background-color: #C6E9E3;
+	text-align: center;
+	color: #FD8E56;
+	width: 100px;
+	display: inline-block;
+	
+}
+
+
+.header {
+    width: 300px;
+}
+
+.hidden {
+display: none;
+}
+
+#button {
+    float: right;
+}
+
